@@ -9,7 +9,6 @@ public class Main {
             return year + " — не високосный год";
         }
     }
-
     public static String clientDeviceYear(int clientOS, int year) {
         int iOS1 = 0;
         int android1 = 1;
@@ -24,7 +23,6 @@ public class Main {
             return "Установите облегчённую версию приложения для Android по ссылке";
         }
     }
-
     public static String deliveryDistance(int distanceKm) {
         if (distanceKm < 20) {
             return "Потребуется 1 день на доставку";
@@ -36,7 +34,6 @@ public class Main {
             return "Доставка не производится";
         }
     }
-
     public static void main(String[] args) {
         System.out.print("Задание №1");
         System.out.println();
